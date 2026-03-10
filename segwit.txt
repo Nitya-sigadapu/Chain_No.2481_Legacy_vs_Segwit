@@ -1,0 +1,35 @@
+Connected to Bitcoin RPC
+
+Address A: 2N4vutwwKMxAXN8KSL2Dky8dgaSjgPUhFGe
+Address B: 2N8wZ2yGkTXTDbXhGEFD6GxXsVecgcxL4tF
+Address C: 2N3UWfVzX9EmvsRanJpgwuy6zujwEBi1kcD
+
+Funding TXID: a8dcbcb1de94c8be88661eeb2675d15bfb7569c8b617d489a85f1de040f897b2
+
+UTXO for A: {'txid': 'a8dcbcb1de94c8be88661eeb2675d15bfb7569c8b617d489a85f1de040f897b2', 'vout': 1, 'address': '2N4vutwwKMxAXN8KSL2Dky8dgaSjgPUhFGe', 'label': 'A', 'redeemScript': '0014c3d05a8c9d113ef9f83f85f9540fae617ad29058', 'scriptPubKey': 'a914802aeb6e5c7d8bf46f13ad0951880e850d6ad2db87', 'amount': Decimal('20.00000000'), 'confirmations': 1, 'spendable': True, 'solvable': True, 'desc': 'sh(wpkh([53e70fcc/49h/1h/0h/0/0]0247ff9ee31dd1792d1a8ba2dd748bf7d5ae769d288a51bb863a0bd5cccd2616ed))#z7lm9nfg', 'parent_descs': ['sh(wpkh([53e70fcc/49h/1h/0h]tpubDDntMpYAQvqcJ8HDKpBy8UofMCpzW2PAF9ZoLgYujcBC822i9me1zDGvTEc5WkgciGUTJxztGJa2jvRJL6taL4isDNgCy2kpwkmuJaqdeJa/0/*))#mcexcufk'], 'safe': True}
+
+Raw TX A->B:
+0200000001b297f840e01d5fa889d417b6c86975fb5bd17526eb1e6688bec894deb1bcdca80100000000fdffffff020065cd1d0000000017a914ac2a6c9f1ac6a3ab98a0adfea2875e5ddeda354c87f00768590000000017a914802aeb6e5c7d8bf46f13ad0951880e850d6ad2db8700000000
+
+Decoded TX A->B:
+{'txid': '86ea8fcfa79b55ff97631784d2ccada6acff701101741cd4de2b0d96d214a502', 'hash': '86ea8fcfa79b55ff97631784d2ccada6acff701101741cd4de2b0d96d214a502', 'version': 2, 'size': 115, 'vsize': 115, 'weight': 460, 'locktime': 0, 'vin': [{'txid': 'a8dcbcb1de94c8be88661eeb2675d15bfb7569c8b617d489a85f1de040f897b2', 'vout': 1, 'scriptSig': {'asm': '', 'hex': ''}, 'sequence': 4294967293}], 'vout': [{'value': Decimal('5.00000000'), 'n': 0, 'scriptPubKey': {'asm': 'OP_HASH160 ac2a6c9f1ac6a3ab98a0adfea2875e5ddeda354c OP_EQUAL', 'desc': 'addr(2N8wZ2yGkTXTDbXhGEFD6GxXsVecgcxL4tF)#wp6p8ysv', 'hex': 'a914ac2a6c9f1ac6a3ab98a0adfea2875e5ddeda354c87', 'address': '2N8wZ2yGkTXTDbXhGEFD6GxXsVecgcxL4tF', 'type': 'scripthash'}}, {'value': Decimal('14.99990000'), 'n': 1, 'scriptPubKey': {'asm': 'OP_HASH160 802aeb6e5c7d8bf46f13ad0951880e850d6ad2db OP_EQUAL', 'desc': 'addr(2N4vutwwKMxAXN8KSL2Dky8dgaSjgPUhFGe)#9f3jcn5z', 'hex': 'a914802aeb6e5c7d8bf46f13ad0951880e850d6ad2db87', 'address': '2N4vutwwKMxAXN8KSL2Dky8dgaSjgPUhFGe', 'type': 'scripthash'}}]}
+
+Signed TX A->B:
+02000000000101b297f840e01d5fa889d417b6c86975fb5bd17526eb1e6688bec894deb1bcdca80100000017160014c3d05a8c9d113ef9f83f85f9540fae617ad29058fdffffff020065cd1d0000000017a914ac2a6c9f1ac6a3ab98a0adfea2875e5ddeda354c87f00768590000000017a914802aeb6e5c7d8bf46f13ad0951880e850d6ad2db87024730440220528d5b75bea91423adc211ec3fd11be21c38c932f7e7fa31138da870405afff902205d365c8b201c2fea3c62ac88e6a2bae7c3420bbab946860d9fb4d819c77fd72801210247ff9ee31dd1792d1a8ba2dd748bf7d5ae769d288a51bb863a0bd5cccd2616ed00000000
+
+Broadcast TXID A->B: 970ab3acc4bf71e9da4a710a128b59062bd24570ffc9bbf6d88df4cdeca1dafa
+
+UTXO for B: {'txid': '970ab3acc4bf71e9da4a710a128b59062bd24570ffc9bbf6d88df4cdeca1dafa', 'vout': 0, 'address': '2N8wZ2yGkTXTDbXhGEFD6GxXsVecgcxL4tF', 'label': 'B', 'redeemScript': '0014a45be3cb040d3ed5a67b149c4abc8a4a57c072cc', 'scriptPubKey': 'a914ac2a6c9f1ac6a3ab98a0adfea2875e5ddeda354c87', 'amount': Decimal('5.00000000'), 'confirmations': 1, 'spendable': True, 'solvable': True, 'desc': 'sh(wpkh([53e70fcc/49h/1h/0h/0/1]0387cc4fb7277a1ccaf79db006ce77eb0fb0dea06df14c822f86024db1b23ae13f))#7p0df96z', 'parent_descs': ['sh(wpkh([53e70fcc/49h/1h/0h]tpubDDntMpYAQvqcJ8HDKpBy8UofMCpzW2PAF9ZoLgYujcBC822i9me1zDGvTEc5WkgciGUTJxztGJa2jvRJL6taL4isDNgCy2kpwkmuJaqdeJa/0/*))#mcexcufk'], 'safe': True}
+
+Raw TX B->C:
+0200000001fadaa1eccdf48dd8f6bbc9ff7045d22b06598b120a714adae971bfc4acb30a970000000000fdffffff0200c2eb0b0000000017a914703495fce8acb1fee8b1bc0f9e7403faa8a0d75087f07be1110000000017a914ac2a6c9f1ac6a3ab98a0adfea2875e5ddeda354c8700000000
+
+Decoded TX B->C:
+{'txid': '46253a532038cb2b6d0fe531f92c188929baa03ca753b6697ae2439315d87c47', 'hash': '46253a532038cb2b6d0fe531f92c188929baa03ca753b6697ae2439315d87c47', 'version': 2, 'size': 115, 'vsize': 115, 'weight': 460, 'locktime': 0, 'vin': [{'txid': '970ab3acc4bf71e9da4a710a128b59062bd24570ffc9bbf6d88df4cdeca1dafa', 'vout': 0, 'scriptSig': {'asm': '', 'hex': ''}, 'sequence': 4294967293}], 'vout': [{'value': Decimal('2.00000000'), 'n': 0, 'scriptPubKey': {'asm': 'OP_HASH160 703495fce8acb1fee8b1bc0f9e7403faa8a0d750 OP_EQUAL', 'desc': 'addr(2N3UWfVzX9EmvsRanJpgwuy6zujwEBi1kcD)#m5msrqqp', 'hex': 'a914703495fce8acb1fee8b1bc0f9e7403faa8a0d75087', 'address': '2N3UWfVzX9EmvsRanJpgwuy6zujwEBi1kcD', 'type': 'scripthash'}}, {'value': Decimal('2.99990000'), 'n': 1, 'scriptPubKey': {'asm': 'OP_HASH160 ac2a6c9f1ac6a3ab98a0adfea2875e5ddeda354c OP_EQUAL', 'desc': 'addr(2N8wZ2yGkTXTDbXhGEFD6GxXsVecgcxL4tF)#wp6p8ysv', 'hex': 'a914ac2a6c9f1ac6a3ab98a0adfea2875e5ddeda354c87', 'address': '2N8wZ2yGkTXTDbXhGEFD6GxXsVecgcxL4tF', 'type': 'scripthash'}}]}
+
+Signed TX B->C:
+02000000000101fadaa1eccdf48dd8f6bbc9ff7045d22b06598b120a714adae971bfc4acb30a970000000017160014a45be3cb040d3ed5a67b149c4abc8a4a57c072ccfdffffff0200c2eb0b0000000017a914703495fce8acb1fee8b1bc0f9e7403faa8a0d75087f07be1110000000017a914ac2a6c9f1ac6a3ab98a0adfea2875e5ddeda354c870247304402205e28489f1485bb95d11c949510ea36af706c1a0f28daa66ad4fdbbc5b29ccf4702206dcf2418d2005e370faed52ba70fb38c0a4400593353bb0ec4f6e3ae2251f77e01210387cc4fb7277a1ccaf79db006ce77eb0fb0dea06df14c822f86024db1b23ae13f00000000
+
+Broadcast TXID B->C: 007891b0df9bfbfdfc3d20543b2c028bd1d2b482c002ae062d905537d2baa64c
+
+SegWit transaction flow complete.
