@@ -68,7 +68,7 @@ txindex=1
 Start Bitcoin Core in regtest mode:
 
 ```
-bitcoind -regtest -daemon
+bitcoind -regtest
 ```
 
 Verify connection:
@@ -102,20 +102,20 @@ This step is required because coinbase rewards become spendable only after **100
 Two Python scripts are included:
 
 ```
-test.py           → Legacy transactions
-segwit_test.py    → SegWit transactions
+legacy.py           → Legacy transactions
+segwit.py    → SegWit transactions
 ```
 
 Run the scripts using:
 
 ```
-python test.py
+python legacy.py
 ```
 
 and
 
 ```
-python segwit_test.py
+python segwit.py
 ```
 
 The scripts perform the following steps automatically:
